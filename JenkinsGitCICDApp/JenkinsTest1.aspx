@@ -11,7 +11,7 @@
         <div>
             <h1>Welcome to Jenkins Test</h1>
             <h2>Welcome to JenkinsTest1.aspx Page</h2>
-            <h3>Jenkins Test Complete</h3>
+            <h3>Jenkins Test Completed</h3>
         </div>
     </form>
 </body>
