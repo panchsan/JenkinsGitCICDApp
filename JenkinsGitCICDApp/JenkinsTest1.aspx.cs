@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace JenkinsGitCICDApp
 {
-    public partial class JenkinsTest : System.Web.UI.Page
+    public partial class JenkinsTest1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void btnClickMe_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("JenkinsTest1.aspx");
         }
     }
 }

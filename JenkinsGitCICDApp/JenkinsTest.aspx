@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <div>
             <h2>Jenkins Test</h2>
+
+            <asp:Button ID="btnClickMe" runat="server" Text="Click Me" OnClick="btnClickMe_Click"/>
         </div>
     </form>
 </body>
