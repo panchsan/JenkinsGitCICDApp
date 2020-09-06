@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2>Welcome to Jenkins Test</h2>
+            <h1>Welcome to Jenkins Test</h1>
             <h2>Welcome to JenkinsTest1.aspx Page</h2>
         </div>
     </form>
