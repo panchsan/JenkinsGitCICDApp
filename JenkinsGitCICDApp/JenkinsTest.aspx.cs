@@ -18,5 +18,10 @@ namespace JenkinsGitCICDApp
         {
             Response.Redirect("JenkinsTest1.aspx");
         }
+
+        protected void btnDbPage_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("JenkinsDBPage.aspx");
+        }
     }
 }

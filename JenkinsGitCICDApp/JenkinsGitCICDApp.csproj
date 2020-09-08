@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JenkinsDBPage.aspx" />
     <Content Include="JenkinsTest.aspx" />
     <Content Include="JenkinsTest1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JenkinsDBPage.aspx.cs">
+      <DependentUpon>JenkinsDBPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JenkinsDBPage.aspx.designer.cs">
+      <DependentUpon>JenkinsDBPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="JenkinsTest.aspx.cs">
       <DependentUpon>JenkinsTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

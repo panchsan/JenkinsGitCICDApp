@@ -11,7 +11,7 @@ namespace JenkinsGitCICDApp
 {
 
 
-    public partial class JenkinsTest
+    public partial class JenkinsDBPage
     {
 
         /// <summary>
@@ -24,21 +24,12 @@ namespace JenkinsGitCICDApp
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnClickMe control.
+        /// gvEmployee control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnClickMe;
-
-        /// <summary>
-        /// btnDbPage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDbPage;
+        protected global::System.Web.UI.WebControls.GridView gvEmployee;
     }
 }

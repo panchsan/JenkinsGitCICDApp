@@ -11,7 +11,8 @@
         <div>
             <h2>Jenkins Test</h2>
 
-            <asp:Button ID="btnClickMe" runat="server" Text="Click Me" OnClick="btnClickMe_Click"/>
+            <asp:Button ID="btnClickMe" runat="server" Text="Click Me" CssClass="btn btn-primary" OnClick="btnClickMe_Click"/>
+            <asp:Button ID="btnDbPage" runat="server" CssClass="btn btn-success" Text="Navigate To Database Page" OnClick="btnDbPage_Click" />
         </div>
     </form>
 </body>
