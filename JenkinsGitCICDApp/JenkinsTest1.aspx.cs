@@ -13,5 +13,19 @@ namespace JenkinsGitCICDApp
         {
 
         }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void btnadd_Click(object sender, EventArgs e)
+        {
+            int fsnumbermber = Convert.ToInt32(TextBox1.Text);
+            int Sconumbermber = Convert.ToInt32(TextBox2.Text);
+            int result = fsnumbermber + Sconumbermber;
+            TextBox3.Text = result.ToString();
+
+        }
     }
 }
